@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  background-color: #f7f6f2;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  margin: 0;
+  padding: 20px 20px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid #dddddd;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+.header-content{
+  padding-bottom: 100px;
+  margin: 0;
+  
+}
+.app-name{
+  color: #477256;
+  display: inline-block;
+  font-size: 25px;
+  padding-right: 15px;
+}
+a{
+  font-size: 16px;
+  color: #232323;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+a.active{
+  padding: 10px;
+  background-color: #dcc044;
+  color: white;
+}
+a.active-teacher{
+  padding: 10px;
+  background-color: #dcc044;
+  color: white;
+}
+.far {
+  float: right;
+  margin: 0;
+  font-size: 35px;
+  color: #232323;
+
+}
+
+.cards {
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.user-name{
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: inline-block;
+
+}
+
+#text {
+  font-size: 18px;
+  color: white;
+}
+
+.buddy{
+  float: left;
+}
+.fas{
+  color: #dcc044;
+}
+.header2 {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: white;
+  color: #779166;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+}
+.home-teacher .user-boxes .create-user .details,.home-user .user-boxes .create-user .details{
+  padding-left: 0px;
+}
+
+.home-teacher .user-boxes .create-user {
+  width: 28%;
+  background: #dd945c;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  float: left;
+  color: #fff;
+}
+.home-teacher .user-boxes .user-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-user .user-boxes .create-user {
+  width: 28%;
+  background: #bf6646;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border-radius: 12px;
+  float: left;
+  color: #fff;
+}
+.details{
+  margin: 0;
+}
+.home-user .user-boxes .user-details {
+  display: flex;
+  justify-content: space-between;
+}
+.user-boxes .user-details li {
+  list-style: none;
+  margin: 8px 0;
+  padding: 0;
+}
+.user-boxes .user-details li p {
+  font-size: 18px;
+  color: #fff;
+  font-size: 400;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+    .home-teacher .user-boxes .create-user,.home-user .user-boxes .create-user {
+        width: 22%;
+    }
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+@media (min-width: 1900px) {
+    .container {
+        max-width: 1900px;
+    }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
+}

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* gea's code */
+.container {
+  margin: 0;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  margin-left: 750px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+#btn-style {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+.appname{
+  font-size: 20px;
+  color: #477256;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+}
+
+a {
+  color: #bf6646;
+}
+
+/* afi's code */
+.wrapper {
+  width: 380px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.wrapper .title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #779166;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: white;
+  padding: 0;
+}
+.wrapper .title2 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #476872;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: white;
+  padding: 0;
+}
+.wrapper form {
+  padding: 20px 20px;
+}
+.wrapper form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.wrapper form .field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.wrapper form .field input:focus,
+form .field input:valid {
+  border-color: #779166;
+}
+.wrapper form .field label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #232323;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field input:focus ~ label,
+form .field input:valid ~ label {
+  top: 0%;
+  font-size: 16px;
+  color: #232323;
+  background: #fff;
+  transform: translateY(-50%);
+}
+form .content {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+form .content input {
+  width: 15px;
+  height: 15px;
+  background: #779166;
+}
+form .content label {
+  color: #262626;
+  user-select: none;
+  padding-left: 5px;
+}
+form .field input[type="submit"] {
+  color: #fff;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #779166;
+  transition: all 0.3s ease;
+}
+form .field input[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+.forgotpass {
+  margin-top: 15px;
+  padding: 0;
+  text-align: center;
+}
